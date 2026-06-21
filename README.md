@@ -1,32 +1,53 @@
 <div align="center">
 
 ```
- ╔╗╔┌─┐┬─┐┌┬┐┌─┐┌─┐┌─┐    ╔╗ ┌─┐┌┬┐┌─┐┌┐ ┌─┐
- ║║║│ │├┬┘ │ ├┤ │ │└─┐    ╠╩┐│ │ │ ├┤  ┬├─┤
- ╝╚╝└─┘┴└─ ┴ └─┘└─┘└─┘    ╚═╝└─┘ ┴ └─┘┴┴ ┴
+  ____  _     _     _               
+ |  _ \(_)___| |__ (_)_ __   __ _  
+ | | | | / __| '_ \| | '_ \ / _` | 
+ | |_| | \__ \ | | | | | | | (_| | 
+ |____/|_|___/_| |_|_|_| |_|\__, | 
+                             |___/  
+  ____        _   _____                    
+ | __ )  ___ | |_|_   _|__ _ __ _ __ ___  
+ |  _ \ / _ \| __|| |/ _ \ '__| '_ ` _ \ 
+ | |_) | (_) | |_ | |  __/ |  | | | | | |
+ |____/ \___/ \__||_|\___|_|  |_| |_| |_|
 ```
 
 # 🤖 Discord Bot Python
 
 **Um bot de Discord moderno, escalável e open-source — construído com Python & discord.py**
 
-[![Python](https://img.shields.io/badge/Python-3.9+-3776AB?style=for-the-badge
-c.png)](https://python.org)
-[![Discord.py](https://img.shields.io/badge/Discord.py-2.3+-7289DA?style=for-the-badge
-c.png)](https://discordpy.readthedocs.io)
-[![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge
-c.png)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.9+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![Discord.py](https://img.shields.io/badge/Discord.py-2.3+-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discordpy.readthedocs.io)
+[![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
 [![Stars](https://img.shields.io/github/stars/davi713albano-coder/discord-bot-python?style=for-the-badge&color=gold)](https://github.com/davi713albano-coder/discord-bot-python/stargazers)
 [![Forks](https://img.shields.io/github/forks/davi713albano-coder/discord-bot-python?style=for-the-badge&color=blueviolet)](https://github.com/davi713albano-coder/discord-bot-python/network)
-[![Issues](https://img.shields.io/github/issues/davi713alban毁灭coder/discord-bot-python?style=for-the-badge&color=red)](https://github.com/davi713alban毁灭coder/discord-bot-python/issues)
-[![Last Commit](https://img.shields.io/github/last-commit/davi713al毁灭coder/discord-bot-python?style=for-the-badge&color=green)](https://github.com/davi713alban销毁coder/discord-bot-python/commits/main)
+[![Issues](https://img.shields.io/github/issues/davi713albano-coder/discord-bot-python?style=for-the-badge&color=red)](https://github.com/davi713albano-coder/discord-bot-python/issues)
+[![Last Commit](https://img.shields.io/github/last-commit/davi713albano-coder/discord-bot-python?style=for-the-badge&color=green)](https://github.com/davi713albano-coder/discord-bot-python/commits/main)
+[![Repo Size](https://img.shields.io/github/repo-size/davi713albano-coder/discord-bot-python?style=for-the-badge&color=orange)](https://github.com/davi713albano-coder/discord-bot-python)
 
-[![Open Source](https://badges.frapsoft.com/os/v3/open-source.svg?v=103)](https://github.com/davi713alban销毁coder/discord-bot-python)
+[![Open Source](https://badges.frapsoft.com/os/v3/open-source.svg?v=103)](https://github.com/davi713albano-coder/discord-bot-python)
 
 ---
 
 </div>
+
+## 📑 Índice
+
+- [✨ Demo & Preview](#-demo--preview)
+- [📚 Tabela de Comandos](#-tabela-de-comandos)
+- [🚀 Sobre o Projeto](#-sobre-o-projeto)
+- [🛠️ Tech Stack](#️-tech-stack)
+- [🚦 Getting Started](#-getting-started)
+- [✨ Funcionalidades](#-funcionalidades)
+- [🗺️ Roadmap](#️-roadmap)
+- [🗂️ Estrutura do Projeto](#️-estrutura-do-projeto)
+- [🤝 Contribuição](#-contribuição)
+- [📜 Licença e Autor](#-licença-e-autor)
+
+---
 
 ## ✨ Demo & Preview
 
@@ -69,7 +90,9 @@ c.png)](LICENSE)
 - 🌍 **Bilíngue** — desenvolvido em português (BR), pronto para internacionalização
 - ⭐ **Open source** — ganhe estrelas no GitHub e contribua com a comunidade!
 
-### 🛠️ Tech Stack
+---
+
+## 🛠️ Tech Stack
 
 [![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org)
 [![Discord.py](https://img.shields.io/badge/Discord.py-7289DA?style=flat-square&logo=discord&logoColor=white)](https://discordpy.readthedocs.io)
@@ -92,12 +115,12 @@ c.png)](LICENSE)
 
 ```bash
 # 1. Clone o repositório
-git clone https://github.com/davi713al毁灭coder/discord-bot-python.git
+git clone https://github.com/davi713albano-coder/discord-bot-python.git
 cd discord-bot-python
 
 # 2. Crie e ative um ambiente virtual
 python -m venv .venv
-source .venv/bin/activate  # Windows: .venv/scripts/activate
+source .venv/bin/activate  # Windows: .venv\Scripts\activate
 
 # 3. Instale as dependências
 pip install -r requirements.txt
@@ -138,9 +161,11 @@ python bot.py
 - [x] 🗂️ Comando `!serverinfo` — informações detalhadas do servidor
 - [x] ❓ Sistema de help integrado com embeds
 - [x] ⚠️ Manipulação automática de erros (permissões, argumentos, etc.)
-- [x] 🔄 Presença dinânica (status "Escutando !help")
+- [x] 🔄 Presença dinâmica (status "Escutando !help")
 
-### 🚧 Roadmap (Em breve!)
+---
+
+## 🗺️ Roadmap
 
 - [ ] 🎵 Sistema de música (YouTube, Spotify, SoundCloud)
 - [ ] 🤖 Integração com APIs de IA (ChatGPT, etc.)
@@ -154,20 +179,19 @@ python bot.py
 - [ ] 📝 Logging avançado
 - [ ] 🌐 Suporte multilíngue (i18n)
 - [ ] 🔗 Integração com APIs externas
+
 ---
 
 ## 🗂️ Estrutura do Projeto
 
 ```
-discord-bot-python/
-├── .env.example            # Template de variáveis de ambiente
-├── .gitignore              # Arquivos ignorados pelo git
-├── bot.py                  # 🧠 Entrypoint principal do bot
-├── requirements.txt        # 📦 Dependências do Python
-├── LICENSE                 # 📜 Licença MIT
-├── README.md               # 📖 Documentação do projeto
-└── cogs/                   # 🧩 Extensões modulares (futuro)
-    └── __init__.py
+📦 discord-bot-python
+├── 📄 .env.example            # Template de variáveis de ambiente
+├── 📄 .gitignore              # Arquivos ignorados pelo git
+├── 📄 bot.py                  # 🧠 Entrypoint principal do bot
+├── 📄 requirements.txt        # 📦 Dependências do Python
+├── 📄 LICENSE                 # 📜 Licença MIT
+└── 📄 README.md               # 📖 Documentação do projeto
 ```
 
 ---
@@ -204,7 +228,7 @@ git push origin feat/minha-feature
 | `docs:` | Documentação | `docs: atualiza README` |
 | `style:` | Formatação (sem mudança de código) | `style: formata com black` |
 | `refactor:` | Refatoração de código | `refactor: otimiza handler de comandos` |
-| `test:` | Adiciona/ corrige testes | `test: adiciona testes para ping` |
+| `test:` | Adiciona/corrige testes | `test: adiciona testes para ping` |
 | `chore:` | Tarefas de build/CI | `chore: adiciona GitHub Actions` |
 
 ---
@@ -217,11 +241,9 @@ Este projeto está licenciado sob a **MIT License** — veja o arquivo [LICENSE]
 
 ### 👨‍💻 Autor
 
-**davi713alban*achecoder**
+**davi713albano-coder**
 
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/davi713alban*checoder)
-
-> 💡 **Dica:** ⭐ Se este projeto te ajudou, deixe uma star! Isso me motiva a continuar desenvolvendo e mantendo o projeto open-source.
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/davi713albano-coder)
 
 ---
 
@@ -235,7 +257,11 @@ Este projeto está licenciado sob a **MIT License** — veja o arquivo [LICENSE]
 ---
 
 <p align="center">
-  <sub>Feito com ❤️, ☕ e muito Python. Mantido por <a href='https://github.com/davi713alban*checoder'>@davi713albano-coder</a></sub>
+  <sub>Feito com ❤️, ☕ e muito Python. Mantido por <a href='https://github.com/davi713albano-coder'>@davi713albano-coder</a></sub>
+</p>
+
+<p align="center">
+  ⭐ <strong>Se este projeto te ajudou, considere dar uma star!</strong> ⭐
 </p>
 
 </div>
