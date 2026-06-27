@@ -1,265 +1,223 @@
 <div align="center">
 
-```
-____                                        __      ____            __        ____           __    __                         
-/\  _`\   __                                /\ \    /\  _`\         /\ \__    /\  _`\        /\ \__/\ \                        
-\ \ \/\ \/\_\    ____    ___    ___   _ __  \_\ \   \ \ \L\ \    ___\ \ ,_\   \ \ \L\ \__  __\ \ ,_\ \ \___     ___     ___    
- \ \ \ \ \/\ \  /',__\  /'___\ / __`\/\`'__\/'_` \   \ \  _ <'  / __`\ \ \/    \ \ ,__/\ \/\ \\ \ \/\ \  _ `\  / __`\ /' _ `\  
-  \ \ \_\ \ \ \/\__, `\/\ \__//\ \L\ \ \ \//\ \L\ \   \ \ \L\ \/\ \L\ \ \ \_    \ \ \/\ \ \_\ \\ \ \_\ \ \ \ \/\ \L\ \/\ \/\ \ 
-   \ \____/\ \_\/\____/\ \____\ \____/\ \_\\ \___,_\   \ \____/\ \____/\ \__\    \ \_\ \/`____ \\ \__\\ \_\ \_\ \____/\ \_\ \_\
-    \/___/  \/_/\/___/  \/____/\/___/  \/_/ \/__,_ /    \/___/  \/___/  \/__/     \/_/  `/___/> \\/__/ \/_/\/_/\/___/  \/_/\/_/
-                                                                                           /\___/                              
-                                                                                           \/__/
-```
+# Discord Bot Python
 
-# 🤖 Discord Bot Python
+**A modern, modular Discord bot built with Python and discord.py**
 
-**Um bot de Discord moderno, escalável e open-source — construído com Python & discord.py**
+Ready-to-use commands, error handling, and a clean architecture designed to scale from a small community to a professional server.
 
 [![Python](https://img.shields.io/badge/Python-3.9+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![Discord.py](https://img.shields.io/badge/Discord.py-2.3+-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discordpy.readthedocs.io)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
-
 [![Stars](https://img.shields.io/github/stars/davi713albano-coder/discord-bot-python?style=for-the-badge&color=gold)](https://github.com/davi713albano-coder/discord-bot-python/stargazers)
-[![Forks](https://img.shields.io/github/forks/davi713albano-coder/discord-bot-python?style=for-the-badge&color=blueviolet)](https://github.com/davi713albano-coder/discord-bot-python/network)
 [![Issues](https://img.shields.io/github/issues/davi713albano-coder/discord-bot-python?style=for-the-badge&color=red)](https://github.com/davi713albano-coder/discord-bot-python/issues)
-[![Last Commit](https://img.shields.io/github/last-commit/davi713albano-coder/discord-bot-python?style=for-the-badge&color=green)](https://github.com/davi713albano-coder/discord-bot-python/commits/main)
-[![Repo Size](https://img.shields.io/github/repo-size/davi713albano-coder/discord-bot-python?style=for-the-badge&color=orange)](https://github.com/davi713albano-coder/discord-bot-python)
-
-[![Open Source](https://badges.frapsoft.com/os/v3/open-source.svg?v=103)](https://github.com/davi713albano-coder/discord-bot-python)
-
----
-
-</div>
-
-## 📑 Índice
-
-- [✨ Demo & Preview](#-demo--preview)
-- [📚 Tabela de Comandos](#-tabela-de-comandos)
-- [🚀 Sobre o Projeto](#-sobre-o-projeto)
-- [🛠️ Tech Stack](#️-tech-stack)
-- [🚦 Getting Started](#-getting-started)
-- [✨ Funcionalidades](#-funcionalidades)
-- [🗺️ Roadmap](#️-roadmap)
-- [🗂️ Estrutura do Projeto](#️-estrutura-do-projeto)
-- [🤝 Contribuição](#-contribuição)
-- [📜 Licença e Autor](#-licença-e-autor)
-
----
-
-## ✨ Demo & Preview
-
-<div align="center">
-
-| 💬 Chat Command | 🎮 Status Presence | 📋 Info Embed |
-|:---:|:---:|:---:|
-| `!ping` → `Pong! 45ms` | `🔍 Escutando !help` | Server stats, member count |
-
-> 🎬 **GIF de demonstração em breve!** *(adicione seu GIF aqui: `assets/demo.gif`)*
 
 </div>
 
 ---
 
-## 📚 Tabela de Comandos
+## Commands
 
-| Emoji | Comando | Descrição | Status |
-|:---:|:---|:---|:---:|
-| 🏓 | `!ping` | Verifica a latência do bot | ✅ Pronto |
-| ℹ️ | `!info` | Exibe informações sobre o bot | ✅ Pronto |
-| 🗂️ | `!serverinfo` | Mostra dados do servidor | ✅ Pronto |
-| ❓ | `!help` | Lista todos os comandos disponíveis | ✅ Pronto |
-| 🎵 | `!play` | Reproduz música em call | 🚧 Em breve |
-| 🤖 | `!ai` | IA integrada via API | 🚧 Em breve |
-| 🛠️ | `!moderation` | Ferramentas de moderação avançadas | 🚧 Em breve |
-
----
-
-## 🚀 Sobre o Projeto
-
-**Discord Bot Python** é uma solução open-source, modular e de fácil customização para criar bots de Discord robustos — ideal para comunidades, servidores de estudo, grupos de amigos ou projetos profissionais.
-
-### 🌟 Por que usar?
-
-- 🔥 **Codebase limpo e organizada** — estrutura modular pronta para escalar
-- 🧩 **Comandos built-in** — `ping`, `info`, `serverinfo`, `help` prontos para produção
-- 🛡️ **Seguro por padrão** — variáveis de ambiente, handling de erros, proteção de permissões
-- 🎨 **Customizável** — fácil adicionar novos comandos e cogs
-- 🌍 **Bilíngue** — desenvolvido em português (BR), pronto para internacionalização
-- ⭐ **Open source** — ganhe estrelas no GitHub e contribua com a comunidade!
+| Command | Description | Status |
+|---------|-------------|--------|
+| `!ping` | Check bot latency in real time | Ready |
+| `!info` | Bot info -- library, prefix, server count | Ready |
+| `!serverinfo` | Server details -- owner, members, roles, channels | Ready |
+| `!help` | List all available commands with embeds | Ready |
+| `!play` | Play music in voice channels | Planned |
+| `!ai` | AI chat via external API | Planned |
+| `!moderation` | Advanced moderation tools | Planned |
 
 ---
 
-## 🛠️ Tech Stack
+## Feature Highlights
 
-[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org)
-[![Discord.py](https://img.shields.io/badge/Discord.py-7289DA?style=flat-square&logo=discord&logoColor=white)](https://discordpy.readthedocs.io)
-[![python-dotenv](https://img.shields.io/badge/python--dotenv-000000?style=flat-square)](https://github.com/theskumar/python-dotenv)
+- **Built-in commands** -- `ping`, `info`, `serverinfo`, and `help` ready out of the box with rich embed responses
+- **Global error handler** -- automatically catches missing permissions, missing arguments, and unknown commands
+- **Dynamic presence** -- bot status shows `Listening to !help` while online
+- **Environment-based config** -- token and prefix loaded from `.env`, never hardcoded
+- **Modular architecture** -- single-file design that is easy to extend with cogs
+- **Rich embeds** -- all info commands respond with styled Discord embeds, not plain text
+- **Bilingual foundation** -- developed in Portuguese (BR), ready for internationalization
 
 ---
 
-## 🚦 Getting Started
+## Quick Start
 
-### 📋 Pré-requisitos
+### Prerequisites
 
-| Requisito | Versão | Badge |
-|-----------|--------|-------|
-| Python | ≥ 3.9 | [![Python](https://img.shields.io/badge/python-≥3.9-blue)](https://python.org) |
-| pip | ≥ 21.0 | [![pip](https://img.shields.io/badge/pip-≥21.0-brightgreen)](https://pip.pypa.io) |
-| Git | ≥ 2.34 | [![Git](https://img.shields.io/badge/git-≥2.34-orange)](https://git-scm.com) |
-| Discord Bot Token | — | [Portal de Desenvolvedores](https://discord.com/developers/applications) |
+- Python 3.9 or higher
+- pip
+- Git
+- A [Discord Bot Token](https://discord.com/developers/applications)
 
-### 🛠️ Instalação
+### Installation
 
 ```bash
-# 1. Clone o repositório
+# 1. Clone the repository
 git clone https://github.com/davi713albano-coder/discord-bot-python.git
 cd discord-bot-python
 
-# 2. Crie e ative um ambiente virtual
+# 2. Create and activate a virtual environment
 python -m venv .venv
-source .venv/bin/activate  # Windows: .venv\Scripts\activate
+# Linux/macOS:
+source .venv/bin/activate
+# Windows:
+.venv\Scripts\activate
 
-# 3. Instale as dependências
+# 3. Install dependencies
 pip install -r requirements.txt
 ```
 
-### ⚙️ Configuração do .env
+### Configuration
+
+Copy the example environment file and add your bot token:
 
 ```bash
-# 4. Copie o arquivo de exemplo
 cp .env.example .env
 ```
 
-Edite o `.env` com seu editor favorito:
+Edit `.env`:
 
 ```bash
-# Discord Bot Configuration
-DISCORD_TOKEN=seu_token_aqui
+DISCORD_TOKEN=your_token_here
 BOT_PREFIX=!
 ```
 
-> 💡 **Como obter o TOKEN?** Acesse o [Discord Developer Portal](https://discord.com/developers/applications) → New Application → Bot → Reset Token → Copy.
+To get a token: open the [Discord Developer Portal](https://discord.com/developers/applications), create a New Application, go to Bot, and reset/copy the token.
 
-### ▶️ Rodando localmente
+### Run
 
 ```bash
-# 5. Inicie o bot!
 python bot.py
 ```
 
----
-
-## ✨ Funcionalidades
-
-### ✅ Implementadas
-
-- [x] 🏓 Comando `!ping` — verifique a latência em tempo real
-- [x] ℹ️ Comando `!info` — estatísticas e dados do bot
-- [x] 🗂️ Comando `!serverinfo` — informações detalhadas do servidor
-- [x] ❓ Sistema de help integrado com embeds
-- [x] ⚠️ Manipulação automática de erros (permissões, argumentos, etc.)
-- [x] 🔄 Presença dinâmica (status "Escutando !help")
-
----
-
-## 🗺️ Roadmap
-
-- [ ] 🎵 Sistema de música (YouTube, Spotify, SoundCloud)
-- [ ] 🤖 Integração com APIs de IA (ChatGPT, etc.)
-- [ ] 🛡️ Moderação automática (filtro de spam, anti-raid)
-- [ ] 📊 Dashboard web para configurações
-- [ ] 💾 Sistema de economia e pontos
-- [ ] 🎉 Sistema de leveling e XP
-- [ ] 🔊 TTS (Text to Speech)
-- [ ] 📦 Docker support
-- [ ] 🧪 CI/CD com GitHub Actions
-- [ ] 📝 Logging avançado
-- [ ] 🌐 Suporte multilíngue (i18n)
-- [ ] 🔗 Integração com APIs externas
-
----
-
-## 🗂️ Estrutura do Projeto
+You should see:
 
 ```
-📦 discord-bot-python
-├── 📄 .env.example            # Template de variáveis de ambiente
-├── 📄 .gitignore              # Arquivos ignorados pelo git
-├── 📄 bot.py                  # 🧠 Entrypoint principal do bot
-├── 📄 requirements.txt        # 📦 Dependências do Python
-├── 📄 LICENSE                 # 📜 Licença MIT
-└── 📄 README.md               # 📖 Documentação do projeto
+Bot conectado como YourBot#1234
+ID: 123456789012345678
+Conectado em 1 servidor(es)
 ```
 
 ---
 
-## 🤝 Contribuição
+## Usage
 
-Adoramos contribuições! Siga os passos abaixo:
+Once the bot is running and invited to your server, use any command with the configured prefix (default `!`):
 
-### 📌 Passo a passo
+```
+!ping          -> Pong! Latencia: 45ms
+!info          -> Shows bot info embed (library, prefix, commands, servers)
+!serverinfo    -> Shows server embed (owner, members, roles, channels, creation date)
+!help          -> Lists all available commands
+```
 
-1. **Fork** este repositório
-2. **Clone** seu fork: `git clone https://github.com/seu-usuario/discord-bot-python.git`
-3. **Crie** uma branch: `git checkout -b feat/minha-feature`
-4. **Commit** com [Conventional Commits](https://www.conventionalcommits.org/):
+### Error Handling
+
+The bot automatically handles common errors:
+
+- **CommandNotFound** -- silently ignored (no spam in chat)
+- **MissingPermissions** -- tells the user they lack permission
+- **MissingRequiredArgument** -- tells the user which argument is missing
+- **All other errors** -- displayed to the user with the error message
+
+---
+
+## How It Works
+
+```
+  Discord Gateway
+       |
+   discord.py
+       |
+     bot.py
+       |
+  +----+----+----+----+
+  | ping | info | server | help |
+  +----+----+----+----+
+       |
+  on_command_error  (global handler)
+```
+
+1. **Connection** -- `bot.py` loads the token from `.env` and connects to the Discord gateway
+2. **Intents** -- `message_content` and `members` intents are enabled for reading messages and member info
+3. **Commands** -- each `@bot.command()` decorator registers a command with automatic argument parsing
+4. **Embeds** -- `info`, `serverinfo`, and `help` respond with structured Discord embeds for a clean look
+5. **Error handler** -- `on_command_error` catches and formats all command errors globally
+
+---
+
+## Project Structure
+
+```
+discord-bot-python/
+  .env.example        # Template for environment variables
+  .gitignore           # Files ignored by git
+  bot.py               # Bot entry point and all commands
+  requirements.txt     # Python dependencies
+  LICENSE              # MIT License
+  README.md            # This file
+```
+
+---
+
+## Roadmap
+
+- [ ] Music system (YouTube, Spotify, SoundCloud)
+- [ ] AI integration (ChatGPT and others)
+- [ ] Automatic moderation (spam filter, anti-raid)
+- [ ] Web dashboard for configuration
+- [ ] Economy and points system
+- [ ] Leveling and XP system
+- [ ] TTS (Text to Speech)
+- [ ] Docker support
+- [ ] CI/CD with GitHub Actions
+- [ ] Advanced logging
+- [ ] Multi-language support (i18n)
+- [ ] External API integrations
+
+---
+
+## Contributing
+
+1. Fork the repository
+2. Create a feature branch: `git checkout -b feat/my-feature`
+3. Commit with [Conventional Commits](https://www.conventionalcommits.org/):
 
 ```bash
-git commit -m "feat: adiciona comando de música !play"
-git commit -m "fix: corrige latência do comando ping"
-git commit -m "docs: atualiza README com novas instruções"
+git commit -m "feat: add music command"
+git commit -m "fix: correct ping latency calculation"
+git commit -m "docs: update README"
 ```
 
-5. **Push** e abra um **Pull Request**:
+4. Push to the branch: `git push origin feat/my-feature`
+5. Open a Pull Request
 
-```bash
-git push origin feat/minha-feature
-```
+### Commit Conventions
 
-### 🎯 Padrão de Commits (Conventional Commits)
-
-| Prefixo | Descrição | Exemplo |
-|---------|-----------|---------|
-| `feat:` | Nova funcionalidade | `feat: adiciona comando !play` |
-| `fix:` | Correção de bug | `fix: corrige latência do ping` |
-| `docs:` | Documentação | `docs: atualiza README` |
-| `style:` | Formatação (sem mudança de código) | `style: formata com black` |
-| `refactor:` | Refatoração de código | `refactor: otimiza handler de comandos` |
-| `test:` | Adiciona/corrige testes | `test: adiciona testes para ping` |
-| `chore:` | Tarefas de build/CI | `chore: adiciona GitHub Actions` |
+| Prefix | Use | Example |
+|--------|----|---------|
+| `feat:` | New feature | `feat: add play command` |
+| `fix:` | Bug fix | `fix: correct ping latency` |
+| `docs:` | Documentation | `docs: update README` |
+| `style:` | Formatting, no code change | `style: format with black` |
+| `refactor:` | Code refactoring | `refactor: simplify command handler` |
+| `test:` | Add or fix tests | `test: add tests for ping` |
+| `chore:` | Build or CI tasks | `chore: add GitHub Actions` |
 
 ---
 
-## 📜 Licença e Autor
+## License
+
+[MIT](LICENSE) -- see the LICENSE file for details.
+
+---
 
 <div align="center">
 
-Este projeto está licenciado sob a **MIT License** — veja o arquivo [LICENSE](LICENSE) para detalhes.
+Built by [davi713albano-coder](https://github.com/davi713albano-coder)
 
-### 👨‍💻 Autor
-
-**davi713albano-coder**
-
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/davi713albano-coder)
-
----
-
-### 🙏 Agradecimentos
-
-- [discord.py](https://discordpy.readthedocs.io/) por fornecer a base do bot
-- [python-dotenv](https://github.com/theskumar/python-dotenv) pela gestão de variáveis de ambiente
-- Comunidade Discord Developer por suporte e templates
-- [Readme MD Generator](https://github.com/kefranabg/readme-md-generator) e [Best Readme Template](https://github.com/othneildrew/Best-README-Template) por inspiração de design
-
----
-
-<p align="center">
-  <sub>Feito com ❤️, ☕ e muito Python. Mantido por <a href='https://github.com/davi713albano-coder'>@davi713albano-coder</a></sub>
-</p>
-
-<p align="center">
-  ⭐ <strong>Se este projeto te ajudou, considere dar uma star!</strong> ⭐
-</p>
+If this project helped you, consider giving it a star.
 
 </div>
